@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="colours" tilewidth="20" tileheight="20">
+  <image source="colours.png" width="100" height="40"/>
+  <terraintypes>
+   <terrain name="New Terrain" tile="-1"/>
+  </terraintypes>
+  <tile id="0">
+   <properties>
+    <property name="colour" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="colour" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="colour" value="green"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="colour" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="colour" value="black"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="colour" value="gold"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2DkOwCAMRFGDMrn/kanoIlAMeBFT/M7Fa2whICIIXGHX9hil9cHAtrIDGX1V9LeiGvlWoi+X753k7cPAho95+ui7yRd9f6PfP/r++yK/X3ZHn5/vtK2n9bH8ef//zGpG6wwX
+  </data>
+ </layer>
+ <layer name="Collisions" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztmEEKACAIBL34/y/3gzqsa0Yz4K3NQSKijIgcXABT6TifSo9X/Srvih/nVwl+Gm6/3Ro1X5HFz7c/fn7w0/jRj/eLP9vRY7ofgJvb/z+nWkQ/Axc=
+  </data>
+ </layer>
+</map>
